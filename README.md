@@ -1,4 +1,4 @@
-# PDF Insight Assistant
+# PDF Q&A Chatbot
 This project is a **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF files, builds a knowledge base from their contents, and provides intelligent answers to user queries. The application leverages **OpenAI API**, **LangChain framework**, and the **Chroma open-source vector database** for an efficient and robust solution. A combination of semantic search and keyword search strategies is implemented using an **Ensemble Retriever**, ensuring precise retrieval of meaningful text chunks. The application is evaluated using the **Ragas** library and features an intuitive user interface built with **Streamlit**.
 
 ## Key Features
