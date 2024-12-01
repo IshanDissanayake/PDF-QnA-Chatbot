@@ -21,7 +21,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** application that enab
 ## Installation and Usage
 ### Installation:
 1. Clone this repository: <br>
-`git clone https://github.com/IshanDissanayake/PDF-Insight-Assistant.git` <br>
+`git clone https://github.com/IshanDissanayake/PDF-QnA-Chatbot.git` <br>
 `cd PDF-Insight-Assistant`
 
 2. Create a virtual environment: <br>
