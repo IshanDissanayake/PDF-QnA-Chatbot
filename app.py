@@ -122,7 +122,13 @@ def setup_rag_chain(pdf_file):
 
 # Streamlit App
 def main():
-    st.title("📚 PDF Q&A Chatbot")
+    st.markdown(
+    """
+    <h1 style='text-align: center;'>📚 PDF Q&A Chatbot</h1>
+    """,
+    unsafe_allow_html=True
+    )
+    #st.title("📚 PDF Q&A Chatbot")
 
     # PDF Upload
     uploaded_file = st.file_uploader("Upload a PDF", type=['pdf'])
