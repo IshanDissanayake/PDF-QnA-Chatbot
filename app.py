@@ -35,7 +35,7 @@ def setup_rag_chain(pdf_file):
         tmp_file_path = tmp_file.name
 
     # Set up OpenAI API Key
-    os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"] if "OPENAI_API_KEY" in st.secrets else st.text_input("Enter OpenAI API Key", type="password")
+    os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
     # LLM Configuration
     llm = ChatOpenAI(
